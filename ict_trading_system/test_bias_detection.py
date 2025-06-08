@@ -9,3 +9,4 @@ df['bias'] = detect_bias(df, lookback=20)
 
 # Step 3: Print last 10 rows
 print(df[['close', 'bias']].tail(10))
+git 
